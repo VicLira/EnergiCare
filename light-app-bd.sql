@@ -67,7 +67,7 @@ ALTER TABLE dica_usuario ADD CONSTRAINT dica_usuario_fk0 FOREIGN KEY (user_id) R
 
 ALTER TABLE dica_usuario ADD CONSTRAINT dica_usuario_fk1 FOREIGN KEY (dica_id) REFERENCES dica_economia_energia(dica_id);
 
-SELECT * FROM eletrodomestico;
+SELECT * FROM usuario;
 
 
 -- Inserir um eletrodoméstico
